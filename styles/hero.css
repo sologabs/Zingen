@@ -23,24 +23,24 @@
 
 @media (width >= 80em) {
   #hero {
-    background: url(..//assets/Illustration.svg) no-repeat bottom center/contain;
+    background: url(..//assets/Illustration.png) no-repeat bottom center/contain;
+    background-size: cover;
     padding-bottom: 15rem;
     
     & img[src*="Music"] {
       width: 25.75rem;
     }
-  }
-
-  & h1 {
-    margin-top: 1.5rem;
-  }
-
-  & p {
-    font-size: 2.5rem;
-    margin-top: 1rem;
-  }
-
-  .buttons {
-    margin-top: 3rem;
+    & h1 {
+      margin-top: 1.5rem;
+    }
+  
+    & p {
+      font-size: 2.5rem;
+      margin-top: 1rem;
+    }
+  
+    .buttons {
+      margin-top: 3rem;
+    }
   }
 }
