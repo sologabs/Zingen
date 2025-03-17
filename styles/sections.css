@@ -1,9 +1,7 @@
 #smartphone-img {
   margin-top: 5rem;
   
-  img {
-    background: url(../assets/Illustration-mobile.png) top/cover;
-  }
+  background: url(../assets/Illustration-mobile.png) top/cover;
 }
 
 section {
